@@ -1,0 +1,219 @@
+.virtual_documents/
+# Các tệp DLL được biên dịch byte / tối ưu hóa
+__pycache__/
+*.py[codz]
+*$py.class
+
+# Phần mở rộng C
+*.Vì thế
+
+# Phân phối / đóng gói
+.Python
+xây dựng/
+phát triển trứng/
+phân phối/
+tải xuống/
+trứng/
+.trứng/
+thư viện/
+lib64/
+các bộ phận/
+sdist/
+var/
+bánh xe/
+chia sẻ/python-wheels/
+*.egg-info/
+.installed.cfg
+*.trứng
+BIỂU HIỆN
+
+# PyInstaller
+# Thông thường, các tệp này được tạo bởi một kịch bản Python từ một mẫu.
+# Trước khi PyInstaller biên dịch tập tin exe, nhằm mục đích chèn thông tin ngày tháng/các thông tin khác vào đó.
+*.manifest
+*.spec
+
+# Nhật ký cài đặt
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Báo cáo kiểm thử đơn vị / độ phủ mã
+htmlcov/
+.tox/
+.nox/
+.phạm vi phủ sóng
+.phạm vi phủ sóng.*
+.cache
+nosetests.xml
+coverage.xml
+*.che phủ
+*.py.cover
+.giả thuyết/
+.pytest_cache/
+che phủ/
+
+# Bản dịch
+*.mo
+*.pot
+
+# Các vấn đề liên quan đến Django:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Các thao tác với Flask:
+ví dụ/
+.webassets-cache
+
+# Những thứ linh tinh:
+.scrapy
+
+# Tài liệu Sphinx
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+mục tiêu/
+
+# Sổ tay Jupyter
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+# Đối với thư viện hoặc gói, bạn có thể muốn bỏ qua các tệp này vì mã nguồn đã được chỉnh sửa.
+# Được thiết kế để chạy trong nhiều môi trường; nếu không, hãy kiểm tra chúng trong:
+# .python-version
+
+# pipenv
+# Theo pypa/pipenv#598, nên đưa Pipfile.lock vào hệ thống kiểm soát phiên bản.
+Tuy nhiên, trong trường hợp hợp tác, nếu có các phụ thuộc hoặc sự phụ thuộc cụ thể của nền tảng.
+# Do không hỗ trợ đa nền tảng, pipenv có thể cài đặt các thư viện phụ thuộc không hoạt động hoặc không tương thích.
+# Cài đặt tất cả các thư viện cần thiết.
+# Pipfile.lock
+
+# Tia cực tím
+# Tương tự như Pipfile.lock, việc đưa uv.lock vào hệ thống quản lý phiên bản thường được khuyến nghị.
+# Điều này đặc biệt được khuyến nghị cho các gói nhị phân để đảm bảo tính khả thi và dễ tái tạo hơn.
+# Thường bị bỏ qua đối với các thư viện.
+# uv.lock
+
+# thơ
+# Tương tự như Pipfile.lock, việc đưa poetry.lock vào hệ thống quản lý phiên bản thường được khuyến nghị.
+# Điều này đặc biệt được khuyến nghị cho các gói nhị phân để đảm bảo tính khả thi và dễ tái tạo hơn.
+# Thường bị bỏ qua đối với các thư viện.
+# https://python-poetry.org/docs/basic-usage/#commit-your-poetrylock-file-to-version-control
+# poetry.lock
+# poetry.toml
+
+# pdm
+# Tương tự như Pipfile.lock, việc đưa pdm.lock vào hệ thống quản lý phiên bản thường được khuyến nghị.
+# pdm khuyến nghị nên đưa cấu hình toàn dự án vào pdm.toml, nhưng không bao gồm .pdm-python.
+# https://pdm-project.org/en/latest/usage/project/#working-with-version-control
+# pdm.lock
+# pdm.toml
+.pdm-python
+.pdm-build/
+
+# pixi
+# Tương tự như Pipfile.lock, việc đưa pixi.lock vào hệ thống quản lý phiên bản thường được khuyến nghị.
+# pixi.lock
+# Pixi tạo một môi trường ảo trong thư mục .pixi, giống như mô-đun venv tạo ra một môi trường ảo.
+# trong thư mục .venv. Không nên đưa thư mục này vào hệ thống quản lý phiên bản.
+.pixi
+
+# PEP 582; được sử dụng bởi ví dụ như github.com/David-OConnor/pyflow và github.com/pdm-project/pdm
+__pypackages__/
+
+# Các món ăn từ cần tây
+lịch trình celerybeat
+celerybeat.pid
+
+# Redis
+*.rdb
+*.aof
+*.pid
+
+# RabbitMQ
+chứng mất trí nhớ/
+rabbitmq/
+rabbitmq-data/
+
+# ActiveMQ
+activemq-data/
+
+# Các tệp đã được phân tích cú pháp bởi SageMath
+*.sage.py
+
+# Môi trường
+.env
+.envrc
+.venv
+môi trường/
+venv/
+MÔI TRƯỜNG/
+env.bak/
+venv.bak/
+
+# Cài đặt dự án Spyder
+.spyderproject
+.spyproject
+
+# Cài đặt dự án dây thừng
+.dự án dây thừng
+
+# Tài liệu mkdocs
+/địa điểm
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Trình kiểm tra kiểu Pyre
+.pyre/
+
+# Trình phân tích kiểu tĩnh pytype
+.pytype/
+
+# Các ký hiệu gỡ lỗi Cython
+cython_debug/
+
+# PyCharm
+# Mẫu dành riêng cho JetBrains được duy trì trong một tệp JetBrains.gitignore riêng biệt có thể
+# Có thể tìm thấy tại https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
+# và có thể được thêm vào gitignore toàn cục hoặc hợp nhất vào tệp này. Để có giải pháp triệt để hơn
+# Tùy chọn (không khuyến nghị): Bạn có thể bỏ dấu chú thích ở dòng sau để bỏ qua toàn bộ thư mục ý tưởng.
+.ý tưởng/
+
+# Tóm tắt
+# Abstra là một khung tự động hóa quy trình được hỗ trợ bởi trí tuệ nhân tạo.
+# Bỏ qua các thư mục chứa thông tin đăng nhập người dùng, trạng thái cục bộ và cài đặt.
+# Tìm hiểu thêm tại https://abstra.io/docs
+.abstra/
+
+# Mã Visual Studio
+# Mẫu dành riêng cho Visual Studio Code được lưu trữ trong tệp VisualStudioCode.gitignore riêng biệt.
+# Bạn có thể tìm thấy tệp này tại https://github.com/github/gitignore/blob/main/Global/VisualStudioCode.gitignore
+# và có thể được thêm vào gitignore toàn cục hoặc hợp nhất vào tệp này. Tuy nhiên, nếu bạn muốn,
+# Bạn có thể bỏ dấu chú thích ở dòng sau để bỏ qua toàn bộ thư mục vscode
+ .vscode/
+
+# Chuyện khó khăn:
+.ruff_cache/
+
+# Tệp cấu hình PyPI
+.pypirc
+
+# Marimo
+marimo/_static/
+marimo/_lsp/
+__marimo__/
+
+# Streamlit
+.streamlit/secrets.toml
+tao_tool.py
+test.py
